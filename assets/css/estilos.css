@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    color: #1B1F21;
+}
+
+main {
+    display: flex;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    width: 350px;
+ }
+
+#userMenu {
+    display: flex;
+    padding: 10px 5px 10px 5px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid #ccc;
+}
+
+.userData {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.userName h2 {
+    font-size: 1em;
+    margin-left: 5px;
+    font-weight: 500;
+
+
+}
+
+.userName h3 {
+    font-size: small;
+    margin-left: 5px;
+    font-weight: 100;
+}
+
+.userPhoto img {
+    width: 45px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.iconMenu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+
+}
+
+.iconMenu i {
+    margin: 5px;
+    font-size: 1.2em;
+    color: gray;
+    transition-duration: 0.4s;
+}
+.iconMenu i:hover {
+    color: #7455bb;
+}
+
+#nuevoChat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 40px;
+    border-bottom: 1.5px solid #ccc;
+}
+
+.nuevoChatBoton button{
+    background-color: #a491d2;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 15px 50px 15px 50px;
+}
+
+.nuevoChatBoton a {
+    text-decoration: none;
+    color: white;
+}
+
+.nuevoChatBoton button:hover {
+    background-color: #af9ac6;
+}
+
+.nuevoChatBoton button:focus {
+    background-color: #b1b1b1;
+}
+
+#contactList {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.contact {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1.5px solid #ccc;
+    margin: 0 -10px 0 -10px;
+    align-items: center;
+}
+
+.contactPhoto img {
+    width: 50px;
+    clip-path: circle(50% at 50% 50%);
+    margin-left: 20px;
+}
+
+.contactName {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+
+}
+
+.contactName h2 {
+    font-size: 1em;
+    margin-left: 5px;
+    font-weight: 500;
+
+}
+
+.contactName h3 {
+    font-size: small;
+    margin-left: 5px;
+    font-weight: 100;
+}
+
+#chatMain {
+    display: flex;
+    background-color: #e8ebe4;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chatLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatTitle {
+    text-align: center;
+}
+
+.chatLogo img {
+    width: 300px;
+}
+
+.chatLogo h1 {
+    margin-top: 20px;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.chatLogo h2 {
+    font-size: 1.2em;
+    font-weight: 100;
+}
